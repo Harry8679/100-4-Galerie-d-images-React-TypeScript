@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ImageCardProps } from '../types';
+import type { ImageCardProps } from '../types';
 
 export const ImageCard = ({ image, onClick, onToggleFavorite, isFavorite }: ImageCardProps) => {
   const [imageLoaded, setImageLoaded] = useState(false);
