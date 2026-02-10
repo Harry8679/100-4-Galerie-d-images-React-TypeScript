@@ -7,7 +7,7 @@ export const GalleryStats = ({
   categoriesCount,
 }: GalleryStatsProps) => {
   return (
-    <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl shadow-lg p-6 text-white">
+    <div className="bg-linear-to-r from-purple-500 to-pink-500 rounded-xl shadow-lg p-6 text-white">
       <h3 className="text-lg font-bold mb-4">📊 Statistiques</h3>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div className="bg-white/20 rounded-lg p-4 text-center">
