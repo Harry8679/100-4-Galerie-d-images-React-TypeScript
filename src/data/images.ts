@@ -1,4 +1,4 @@
-import { Image, Category } from '../types';
+import type { Image, Category } from '../types';
 
 export const sampleImages: Image[] = [
   {
