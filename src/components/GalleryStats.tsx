@@ -1,4 +1,4 @@
-import { GalleryStatsProps } from '../types';
+import type { GalleryStatsProps } from '../types';
 
 export const GalleryStats = ({
   totalImages,
