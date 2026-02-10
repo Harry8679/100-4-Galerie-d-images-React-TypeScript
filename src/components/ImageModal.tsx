@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { ImageModalProps } from '../types';
+import type { ImageModalProps } from '../types';
 
 export const ImageModal = ({
   image,
