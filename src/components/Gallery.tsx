@@ -1,4 +1,4 @@
-import { GalleryProps } from '../types';
+import type { GalleryProps } from '../types';
 import { useGallery } from '../hooks/useGallery';
 import { sampleImages, categories } from '../data/images';
 import { SearchBar } from './SearchBar';
