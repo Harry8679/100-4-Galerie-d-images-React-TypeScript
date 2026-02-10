@@ -101,7 +101,7 @@ export const ImageModal = ({
             <h2 className="text-2xl font-bold text-gray-800">{image.title}</h2>
             <button
               onClick={() => onToggleFavorite(image.id)}
-              className="flex-shrink-0 w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center transition-colors"
+              className="shrink-0 w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center transition-colors"
             >
               <svg
                 className={`w-6 h-6 transition-colors ${
