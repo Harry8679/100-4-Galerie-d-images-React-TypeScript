@@ -1,5 +1,5 @@
 import { useState, useCallback, useMemo } from 'react';
-import { Image, Category } from '../types';
+import type { Image, Category } from '../types';
 
 interface UseGalleryProps {
   initialImages: Image[];
