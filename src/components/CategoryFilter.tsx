@@ -1,4 +1,4 @@
-import { CategoryFilterProps, Category } from '../types';
+import type { CategoryFilterProps, Category } from '../types';
 import { categoryLabels } from '../data/images';
 
 export const CategoryFilter = ({
