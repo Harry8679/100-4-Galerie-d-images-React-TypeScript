@@ -1,4 +1,4 @@
-import { SearchBarProps } from '../types';
+import type { SearchBarProps } from '../types';
 
 export const SearchBar = ({ value, onChange, placeholder = 'Rechercher...' }: SearchBarProps) => {
   return (
