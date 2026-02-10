@@ -1,4 +1,4 @@
-import { ImageGridProps } from '../types';
+import type { ImageGridProps } from '../types';
 import { ImageCard } from './ImageCard';
 
 export const ImageGrid = ({
